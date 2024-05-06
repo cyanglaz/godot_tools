@@ -1,0 +1,5 @@
+alias godot="/Applications/Godot.app/Contents/MacOS/Godot"
+
+# Run gut using the config file in res://.gutconfig.json
+# Smple here: https://gut.readthedocs.io/en/latest/Command-Line.html
+godot -d -s --path "$PWD" addons/gut/gut_cmdln.gd
